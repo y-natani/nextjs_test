@@ -5,6 +5,7 @@ import type { NextPage } from "next";
 import { currentTime } from "../../helpers/time";
 import { RevalidateButton } from "../../components/ISR/RevalidateButton";
 import { REVALIDATION_TIME } from "../../constants/common";
+import { TestFetchButton } from "../../components/ISR/TestFetchButton";
 
 type PropTypes = {
   currentTime: string;
@@ -16,6 +17,7 @@ export const IsrTop: NextPage<PropTypes> = ({ currentTime }) => {
       <Time time={currentTime} />
       <Links />
       <RevalidateButton />
+      <TestFetchButton />
     </main>
   );
 };
