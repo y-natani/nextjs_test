@@ -1,11 +1,7 @@
 import type { NextPage } from "next";
 import Link from "next/link";
 
-type PropTypes = {
-  currentTime: string;
-};
-
-export const Home: NextPage<PropTypes> = ({ currentTime }) => {
+export const Home: NextPage = () => {
   return (
     <main>
       <h2>Topics</h2>
