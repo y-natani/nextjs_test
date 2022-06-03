@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "blanu.vscode-styled-jsx",
+    "andrewrazumovsky.vscode-styled-jsx-languageserver"
+  ]
+}
