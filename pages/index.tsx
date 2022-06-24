@@ -6,6 +6,19 @@ export const Home: NextPage = () => {
   return (
     <main>
       <Head>
+        <meta
+          name="description"
+          content="http://localhost:5000?s=注目&page=1"
+        />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="http://localhost:5000?s=注目&page=1"
+        />
+        <meta
+          property="og:description"
+          content="http://localhost:5000?s=注目&page=1"
+        />
         <meta property="og:url" content="http://localhost:5000?s=注目&page=1" />
         <meta
           name="twitter:url"
